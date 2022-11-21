@@ -1,0 +1,112 @@
+.container {
+    background-image: linear-gradient(71.17deg, #FEAF00 19.35%, #F8D442 90.12%);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.Card {
+    height: 550px;
+    width: 475px;
+    border-radius: 20px;
+    background: #FFFFFF;
+}
+
+.line1 {
+    width: 7px;
+    height: 39px;
+    background-color: #F8D442;
+    margin-left: 70px;
+    margin-top: 44px;
+    display: inline-block;
+    position: absolute;
+}
+
+.title {
+    position: relative;
+    margin-top: 43px;
+    margin-left: 85px;
+    font-weight:900;
+    font-size: 32px;
+    letter-spacing: 2px;
+    color: #000000;
+    position: absolute;
+}
+
+.signin{
+    width: 87px;
+    font-weight: 500;
+    position: relative;
+    top: 130px;
+    left: 185px;
+    color: #000000;
+}
+
+.small-text{
+    color: #6C6C6C;
+    position: relative;
+    font-size: 15px;
+    letter-spacing: 1px;
+    top: 140px;
+    margin-left: 60px;
+    font-weight: 400;
+}
+
+form{
+    position: relative;
+    margin-left: 30px;
+    margin-top: 200px;
+    color: #6C6C6C;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.pw{
+    margin-top: 20px;
+}
+
+label{
+    margin-left: 10px;
+}
+
+input{
+    border: 1px solid #E5E5E5;
+    margin-top: 10px;
+    margin-left: 8px;
+    width: 400px;
+    height: 40px;
+    border-radius: 4px;
+}
+
+input::placeholder{
+    color: #CDCDCD;
+    padding: 15px;
+}
+
+input[type=text]{
+    padding-left: 10px;
+    font-size: 15px;
+}
+
+button{
+    height: 44px;
+    width: 405px;
+    padding: 14px 180px;
+    margin-top: 30px;
+    margin-left: 7px;
+    font-weight: 500;
+    font-size: 12px;
+    border: 1px transparent;
+    border-radius: 4px;
+    color: #FFFFFF;
+    background-color: #FEAF00;
+}
+
+button:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    color: #000000;
+}
