@@ -1,0 +1,111 @@
+.Navbar{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    background-color:#F2EAE1;
+    height: 100vh;
+    width: 270px;
+    position: fixed;
+}
+
+
+.line2{
+    background-color:#F8D442;
+    position: relative;
+    display: inline-block;
+    width: 4px;
+    height: 24px;
+    top: 20px;
+    left:25px;
+}
+
+.title2{
+    font-weight: 700;
+    font-size: 15px;
+    letter-spacing: 1px;
+    position: relative;
+    top: -8px;
+    left: 35px;
+}
+
+.Nav-profile{
+    display: inline-block;
+    position: relative;
+    top: 35px;
+    left: 65px;
+    text-align: center;
+}
+
+.top-img{
+    border-radius: 50%;
+}
+
+.text-2{
+    position: relative;
+    margin-top: 18px;
+}
+
+.profile-name{
+    font-weight:700;
+    font-size: 17px;
+    letter-spacing: 2px;
+}
+
+.adm{
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin-top: 5px;
+    color: #FEAF00;
+}
+
+.nav-links{
+    margin-top: 70px;
+}
+
+li{
+    width: 193px;
+    height: 41px;
+    margin-left: 39px;
+    margin-bottom: 10px;
+    list-style: none;
+}
+
+.active{
+    background-color: #FEAF00;
+    border-bottom: 5px solid #F2EAE1;
+}
+
+.not-active{
+    background-color: transparent;
+}
+
+a{
+    text-decoration: none;
+    color: #000000;
+    text-align: center;
+    padding-bottom: 13px;
+    padding-left: 15px;
+    padding-right: 75px;
+    padding-top: 13px;
+    
+}
+
+.icons{
+    position: relative;
+    font-size: 17px;
+    padding-left: 15px;
+    top: 2px;
+    right: 8px;
+    color: #1B1212;
+}
+
+.logout{
+    position: relative;
+    top: 35px;
+    left: 55px;
+}
+
+.logout-icon{
+    margin-left: 23px;
+}
