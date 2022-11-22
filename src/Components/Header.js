@@ -3,13 +3,19 @@ import '../Styles/Header.css'
 import {CiSearch} from 'react-icons/ci'
 import {TfiBell} from 'react-icons/tfi'
 import {IoCaretBackCircleOutline} from 'react-icons/io5'
+import { useHistory } from 'react-router-dom'
 
 const Header = () => {
+  let history = useHistory()
+  const handleBack = ()=>{
+    history.push("/");
+  }
+
   return (
     <>
     <div className="main-container">
         <div className="back-btn">
-        <IoCaretBackCircleOutline className='back'/>
+        <IoCaretBackCircleOutline onClick={handleBack} className='back'/>
         </div>
         <div className="right-icons">
             <div className="search-box">

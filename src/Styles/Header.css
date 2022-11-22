@@ -19,6 +19,10 @@
     color: #C4C4C4;
 }
 
+.back:hover{
+    cursor: pointer;
+}
+
 .right-icons{
     display: flex;
     flex-direction: row;
@@ -51,4 +55,8 @@ input[type="search"]{
     top:17px;
     font-size: 20px;
     color:#C4C4C4;
+}
+
+.bell:hover{
+    cursor: pointer;
 }

@@ -3,10 +3,10 @@ import { NavLink, useLocation } from 'react-router-dom'
 import '../Styles/Navbar.css'
 import {HiOutlineHome, HiOutlineBookmark} from 'react-icons/hi'
 import {SlGraduation} from 'react-icons/sl'
-import vector from './Vector.png'
-import report from './Report.png'
-import setting from './Setting.png'
-import logout from './Logout.png'
+import vector from '../Icons/Vector.png'
+import report from '../Icons/Report.png'
+import setting from '../Icons/Setting.png'
+import logout from '../Icons/Logout.png'
 
 const Navbar = () => {
 
