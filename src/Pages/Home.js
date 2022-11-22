@@ -17,6 +17,9 @@ const Home = () => {
     let handlePay =()=>{
       history.push("/payment")
     }
+    let handleUsers =()=>{
+      history.push("/users")
+    }
 
   return (
     <>
@@ -37,7 +40,7 @@ const Home = () => {
           <p className="card-pay-text">INR</p>
           <p className="pay2">556,000</p>
         </div>
-        <div className="card card4">
+        <div className="card card4" onClick={handleUsers}>
           <img className="big-icons big4" src={big4} alt="big4" />
           <p className="card-text">Users</p>
           <p className="card-bottom-text">3</p>
