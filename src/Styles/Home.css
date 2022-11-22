@@ -1,8 +1,127 @@
-body{
+body {
     background-color: #fdfdfd;
 }
 
-.main{
+.main {
+    display: flex;
+    flex: wrap;
     text-align: center;
-    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.card {
+    position: relative;
+    display: flex;
+    height: 157px;
+    width: 255px;
+    left: 300px;
+    top: 30px;
+    border-radius: 8px;
+    margin-right: 25px;
+    margin-left: 20px;
+}
+
+.card:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+.card-text {
+    font-weight: 500;
+    font-size: 14px;
+    color: #6C6C6C;
+    position: relative;
+    top: 73px;
+    left:-10px;
+}
+
+.card1 {
+    background-color: #F0F9FF;
+}
+
+.card2 {
+    background-color: #FEF6FB;
+}
+
+.card3 {
+    background-color: #FEFBEC;
+}
+
+.card4 {
+    background: linear-gradient(110.42deg, #FEAF00 18.27%, #F8D442 91.84%);
+}
+
+.big-icons {
+    position: relative;
+    top: 21px;
+    left:20px;
+}
+
+.big1{
+    width: 48px;
+    height: 28.5px;
+}
+
+.big2{
+    height: 28px;
+    height: 35px;
+}
+
+.big3{
+    height:35px;
+    width:35px;
+}
+
+.big4{
+    height:34px;
+    width:34px;
+}
+
+.student{
+    position: relative;
+    left: -25px !important;
+}
+
+.course{
+    position: relative;
+    left: -5px !important;
+}
+
+.pay{
+    position: relative;
+    left: -22px !important;
+}
+
+.card-pay-text{
+    position: relative;
+    top: 112px;
+    left: -27px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.card-bottom-text{
+    position: relative;
+    top: 100px;
+    left: 130px;
+    display: inline-block;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.pay2{
+    position: relative;
+    top: 100px;
+    left: -22px;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.stud{
+    position: relative;
+    top: 100px;
+    left: 80px;
+    font-weight: 700;
+    font-size: 30px;
 }

@@ -46,6 +46,10 @@ input[type="search"]{
     color:#C4C4C4;
 }
 
+.search-icon:hover{
+    cursor:text;
+}
+
 .bell-icon{
     margin-right: 51px;
 }
