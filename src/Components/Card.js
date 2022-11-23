@@ -16,7 +16,12 @@ const Card = () => {
         </div>
         <div className="stud-card-icons">
           <div className="edit">
-            <img src={edit} alt="edit" />
+            <img
+              src={edit}
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal"
+              alt="edit"
+            />
           </div>
           <div className="del">
             <img src={del} alt="delete" />
