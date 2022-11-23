@@ -1,8 +1,9 @@
 import React from 'react'
 import { NavLink, useLocation } from 'react-router-dom'
 import '../Styles/Navbar.css'
-import {HiOutlineHome, HiOutlineBookmark} from 'react-icons/hi'
-import {SlGraduation} from 'react-icons/sl'
+import homeI from '../Icons/home.png'
+import course from '../Icons/course.png'
+import student from '../Icons/students.png'
 import vector from '../Icons/Vector.png'
 import report from '../Icons/Report.png'
 import setting from '../Icons/Setting.png'
@@ -17,8 +18,8 @@ const Navbar = () => {
     <div className="Nav-top">
         <div>
         <div className="line2"></div>
-        <div className='title2'>
-        <h2>CRUD OPERATIONS</h2>
+        <div>
+        <h2 className='title2'>CRUD OPERATIONS</h2>
         </div>
         </div>
         <div className="Nav-profile">
@@ -33,13 +34,13 @@ const Navbar = () => {
         <div className="nav-links">
             <ul>
                 <li>
-                <NavLink className={`${location.pathname==="/"? "active": "not-active"}`} to="/"><HiOutlineHome className='icons'/> Home</NavLink>
+                <NavLink className={`${location.pathname==="/"? "active": "not-active"}`} to="/"><img className='icons' src={homeI} alt="home" /> Home</NavLink>
                 </li>
                 <li>
-                    <NavLink className={`${location.pathname==="/course"? "active": ""}`} to="/course"><HiOutlineBookmark className='icons'/> Course</NavLink>
+                    <NavLink className={`${location.pathname==="/course"? "active": ""}`} to="/course"><img className='icons' src={course} alt="course" /> Course</NavLink>
                 </li>
                 <li>
-                    <NavLink className={`${location.pathname==="/students"? "active": ""}`} to="/students"><SlGraduation className='icons'/> Students</NavLink>
+                    <NavLink className={`${location.pathname==="/students"? "active": ""}`} to="/students"><img className='icons' src={student} alt="student" /> Students</NavLink>
                 </li>
                 <li>
                     <NavLink className={`${location.pathname==="/payment"? "active": ""}`} to="/payment"><img className='icons' src={vector} alt="vector" /> Payment</NavLink>

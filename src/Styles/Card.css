@@ -1,0 +1,75 @@
+.studentCard{
+    width: 1160px;
+    height: 85px;
+    margin-left: 50px;
+    text-align: center;
+    border: transparent;
+    border-radius: 8px;
+    background-color: #ffffff;
+    margin-top: 10px;
+    position: relative;
+}
+
+.studentTxt{
+    display: flex;
+    flex-direction: row;
+}
+
+.stud-text{
+    font-size: 14px;
+    color: #000000;
+    padding-top: 34px;
+}
+
+.stud-text:hover{
+    cursor: default;
+}
+
+.stud-name{
+    margin-left: 100px ;
+}
+
+.stud-email{
+    margin-left: 145px;
+}
+
+.stud-phone{
+    margin-left: 65px;
+}
+
+.stud-enroll{
+    margin-left: 111px;
+}
+
+.stud-doa{
+    margin-left: 110px;
+}
+
+.stud-card-icons{
+    position: relative;
+    float:right;
+}
+
+.edit{
+    position: relative;
+    top: -36px;
+    right: 80px;
+}
+
+.edit:hover{
+    cursor: pointer;
+}
+
+.del{
+    position: relative;
+    right: 30px;
+    top: -60px;
+}
+
+.del{
+    cursor: pointer;
+}
+
+::-webkit-scrollbar{
+    width: 1px;
+}

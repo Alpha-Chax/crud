@@ -19,7 +19,7 @@ const Header = () => {
         </div>
         <div className="right-icons">
             <div className="search-box">
-                <CiSearch className='search-icon'/>
+                <CiSearch className='search-icon-1'/>
                 <input type="search" placeholder='Search...'/>
             </div>
             <div className="bell-icon">

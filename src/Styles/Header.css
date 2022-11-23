@@ -39,14 +39,14 @@ input[type="search"]{
     padding-left: 10px;
 }
 
-.search-icon{
+.search-icon-1{
     position: relative;
     left:205px;
-    top: 4px;
+    top: -2px;
     color:#C4C4C4;
 }
 
-.search-icon:hover{
+.search-icon-1:hover{
     cursor:text;
 }
 

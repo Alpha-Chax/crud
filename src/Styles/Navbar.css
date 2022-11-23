@@ -21,8 +21,7 @@
 
 .title2{
     font-weight: 700;
-    font-size: 15px;
-    letter-spacing: 1px;
+    font-size: 22px;
     position: relative;
     top: -8px;
     left: 35px;
@@ -38,6 +37,10 @@
 
 .top-img{
     border-radius: 50%;
+}
+
+.top-img:hover{
+    cursor: pointer;
 }
 
 .text-2{
@@ -63,10 +66,11 @@
     margin-top: 70px;
 }
 
+
 li{
-    width: 193px;
+    width: 300px;
     height: 41px;
-    margin-left: 39px;
+    margin-left: 10px;
     margin-bottom: 10px;
     list-style: none;
 }
@@ -87,23 +91,26 @@ a{
     padding-bottom: 13px;
     padding-left: 15px;
     padding-right: 75px;
-    padding-top: 13px;
-    
+    padding-top: 13px;   
+}
+
+a:hover{
+    color: #000000;
 }
 
 .icons{
     position: relative;
     font-size: 17px;
     padding-left: 15px;
-    top: 2px;
+    top: -1px;
     right: 8px;
     color: #1B1212;
 }
 
 .logout{
     position: relative;
-    top: 35px;
-    left: 55px;
+    top: 30px;
+    left: 48px;
 }
 
 .logout-icon{

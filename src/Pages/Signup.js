@@ -1,15 +1,20 @@
 import React from 'react'
+import { useHistory } from 'react-router-dom'
 import '../Styles/Signup.css'
 
 const Signup = () => {
+    let history = useHistory()
+    const handlesubmit = ()=>{
+        history.push("/")
+    }
   return (
     <>
-    <div className="container">
-        <div className="Card">
+    <div className="container-s">
+        <div className="Card-sign">
             <div className="line1"></div>
-            <div className="text">
-            <h1 className='title'>CRUD OPERATIONS</h1>
-            <h2 className='signin'>SIGN IN</h2>
+            <div className="text-s">
+            <h1 className='title-s'>CRUD OPERATIONS</h1>
+            <h2 className='signin-s'>SIGN IN</h2>
             <h4 className='small-text'>Enter your credentials to access your account</h4>
             <form action="">
                 <div>
@@ -20,7 +25,7 @@ const Signup = () => {
                     <label htmlFor="password">Password</label><br />
                     <input type="text" name='password' id='password' placeholder='Enter your password' required/>
                 </div>
-                <button type='submit'>SIGN IN</button>
+                <button onClick={handlesubmit} className='sign-in-btn' type='submit'>SIGN IN</button>
             </form>
             </div>
         </div>

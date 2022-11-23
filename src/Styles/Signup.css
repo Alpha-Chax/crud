@@ -1,4 +1,4 @@
-.container {
+.container-s {
     background-image: linear-gradient(71.17deg, #FEAF00 19.35%, #F8D442 90.12%);
     width: 100vw;
     height: 100vh;
@@ -8,7 +8,11 @@
     font-family: 'Roboto', sans-serif;
 }
 
-.Card {
+h1,h2,h3,h4,h5:hover{
+    cursor: default;
+}
+
+.Card-sign{
     height: 550px;
     width: 475px;
     border-radius: 20px;
@@ -25,7 +29,7 @@
     position: absolute;
 }
 
-.title {
+.title-s {
     position: relative;
     margin-top: 43px;
     margin-left: 85px;
@@ -36,9 +40,9 @@
     position: absolute;
 }
 
-.signin{
-    width: 87px;
-    font-weight: 500;
+.signin-s{
+    font-size: 22px;
+    font-weight: 600;
     position: relative;
     top: 130px;
     left: 185px;
@@ -48,11 +52,11 @@
 .small-text{
     color: #6C6C6C;
     position: relative;
-    font-size: 15px;
-    letter-spacing: 1px;
+    font-size: 14px;
+    letter-spacing: 0.5px;
     top: 140px;
-    margin-left: 60px;
-    font-weight: 400;
+    margin-left: 80px;
+    font-weight: 200;
 }
 
 form{
@@ -70,6 +74,7 @@ form{
 
 label{
     margin-left: 10px;
+    font-weight: 400;
 }
 
 input{
@@ -91,7 +96,7 @@ input[type=text]{
     font-size: 15px;
 }
 
-button{
+.sign-in-btn{
     height: 44px;
     width: 405px;
     padding: 14px 180px;
@@ -105,8 +110,8 @@ button{
     background-color: #FEAF00;
 }
 
-button:hover{
-    transform: scale(1.1);
+.sign-in-btn:hover{
+    transform: scale(1.05);
+    transition: 0.2s;
     cursor: pointer;
-    color: #000000;
 }

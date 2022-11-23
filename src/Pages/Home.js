@@ -24,23 +24,23 @@ const Home = () => {
   return (
     <>
       <div className="main">
-        <div className="card card1" onClick={handleStudents}>
+        <div className="cards card1" onClick={handleStudents}>
           <img className="big-icons big1" src={big1} alt="big1" />
           <p className="card-text student">Students</p>
           <p className="stud">243</p>
         </div>
-        <div className="card card2" onClick={handleCourse}>
+        <div className="cards card2" onClick={handleCourse}>
           <img className="big-icons big2" src={big2} alt="big2" />
           <p className="card-text course">Course</p>
           <p className="card-bottom-text">13</p>
         </div>
-        <div className="card card3" onClick={handlePay}>
+        <div className="cards card3" onClick={handlePay}>
           <img className="big-icons big3" src={big3} alt="big3" />
           <p className="card-text pay">Payments</p>
           <p className="card-pay-text">INR</p>
           <p className="pay2">556,000</p>
         </div>
-        <div className="card card4" onClick={handleUsers}>
+        <div className="cards card4" onClick={handleUsers}>
           <img className="big-icons big4" src={big4} alt="big4" />
           <p className="card-text">Users</p>
           <p className="card-bottom-text">3</p>
